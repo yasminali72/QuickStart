@@ -1,0 +1,525 @@
+:root {
+  --mainColor: #388da8;
+  --secandColor: #63a2b7;
+  --nav-font: "Inter", sans-serif;
+  --heading-font: "Nunito Sans", sans-serif;
+  --default-font: "Roboto", sans-serif;
+  --heading-color: #3e5055;
+  --default-color: #3d4348;
+  --default-color-rgb: 61, 67, 72;
+  --accent-color-rgb: 56, 141, 168;
+  --accent-color: #388da8;
+  --third-color: #eff6f8;
+  --pricing-card-color: #f7fbfc;
+  --feaature-card-color: #f5f9fb;
+  --bg: #f9fbfc;
+}
+html{
+  scroll-padding-top: 93px;
+}
+
+.navbar {
+  padding: 20px 0 20px;
+}
+.navbar .container a img {
+  width: 15%;
+  margin-right: 8px;
+}
+.navbar .container .navbar-brand span {
+  font-family: var(--heading-font);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+.navbar .container button {
+  background-color: var(--mainColor);
+  border: var(--mainColor);
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: var(--default-font);
+}
+.navbar .container button:hover {
+  background-color: var(--secandColor);
+}
+.navbar-nav .nav-item a:hover {
+  color: var(--mainColor);
+}
+.nav .container ul a {
+  font-family: var(--nav-font);
+}
+
+.home {
+  background-image: url(../images/hero-bg-light.webp);
+  background-position: center center;
+  background-size: cover;
+  height: 140vh;
+}
+.home .overlay {
+  background-color: rgba(255, 255, 255, 0.834);
+}
+.home img{
+    width: 100%;
+}
+.home .container h1 {
+  font-family: var(--heading-font);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+.home .container h1 span {
+  color: var(--mainColor);
+}
+.home .container p {
+  color: rgba(var(--default-color-rgb), 0.7);
+  font-family: var(--default-font);
+  font-size: 18px;
+  margin: 5px 0 30px;
+  font-weight: 400;
+}
+.home .buttons button {
+  background-color: var(--mainColor);
+  border: var(--mainColor);
+  padding: 10px 28px;
+  font-family: var(--heading-font);
+  font-size: 13px;
+}
+.home .buttons button:hover {
+  box-shadow: 0px 0px 4px var(--secandColor);
+  background-color: var(--secandColor);
+}
+.home .container {
+  padding-top: 200px;
+}
+.video-watch i {
+  font-size: 32px;
+  color: var(--mainColor);
+}
+.video-watch:hover i {
+  color: var(--secandColor);
+}
+.video-watch a {
+  color: var(--default-color);
+  font-size: 13px;
+  font-family: var(--default-font);
+  font-weight: 600;
+}
+.video-watch:hover a {
+  color: var(--secandColor);
+}
+.featured-services {
+  background-color: #f3f8fa;
+}
+.featured-services {
+  padding: 40px 0;
+}
+.featured-services .card-body a {
+  color: var(--heading-color);
+}
+.featured-services .card:hover a {
+  color: var(--mainColor);
+}
+.featured-services .icon {
+  width: 130px;
+  height: 72px;
+  background-color: rgba(var(--accent-color-rgb), 0.2);
+}
+.featured-services .icon a i {
+  color: var(--mainColor);
+}
+.featured-services .card:hover i {
+  color: white;
+}
+.featured-services .card:hover .icon {
+  background-color: var(--accent-color);
+}
+
+.card {
+  background-color: #f3f8fa;
+}
+.about {
+  padding: 60px 0 20px;
+}
+.about p i {
+  color: var(--mainColor);
+}
+.bs-btn-bg {
+  --bs-btn-bg: var(--mainColor);
+}
+.about .container button {
+  font-family: var(--heading-font);
+  padding: 12px 24px;
+}
+.about .container button:hover {
+  background-color: var(--secandColor);
+}
+#first {
+  font-family: var(--default-font);
+  color: rgba(var(--default-color-rgb), 0.6);
+}
+.about .row h3 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+}
+.about .row p {
+  font-family: var(--default-font);
+}
+.clients .row h1 {
+  color: var(--default-color);
+}
+.clients .row h1:hover {
+  color: #388da8;
+}
+.features-title h2 {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.features-title span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.features .row .card {
+  background-color: white;
+}
+.features .row .card:hover {
+  background-color: var(--third-color);
+}
+.features .row .card-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--mainColor);
+}
+.features-details h2 {
+  color: var(--heading-color);
+}
+
+.features-details p {
+  color: rgba(var(--default-color-rgb), 0.6);
+  font-family: var(--default-font);
+}
+
+.bs-btn-hover-bg {
+  --bs-btn-hover-bg: var(--secandColor);
+}
+.features-details .card {
+  padding: 30px;
+  background-color: var(--feaature-card-color);
+}
+.features-details a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.services {
+  background-color: var(--bg);
+}
+.services span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.services .card-icon {
+  width: 72px;
+  height: 72px;
+  background-color: #e6fafd;
+  border: 1px solid var(--secandColor);
+  padding: 20px;
+}
+.services .card-icon i {
+  color: var(--secandColor);
+}
+
+.services .card {
+  padding: 30px;
+}
+.services .card-body a {
+  color: var(--mainColor);
+}
+.services .card-body a:hover {
+  color: var(--secandColor);
+}
+.services .card:hover {
+  box-shadow: 0px 0px 6px 7px rgb(218, 218, 218);
+}
+.services-details {
+  padding: 60px 0;
+}
+.services-details .row h2 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.services-details .row p {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+.services-details .card h5 {
+  font-size: 18px;
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.services-details .card p {
+  font-size: 14px;
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+.services-details .card i {
+  color: var(--secandColor);
+}
+.pricing {
+  padding: 60px 0;
+}
+.pricing-title span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.pricing-title {
+  padding: 0 12px 60px;
+}
+h2 {
+  font-size: 32px;
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+p {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+.pricing .card {
+  padding: 40px;
+  background-color: var(--pricing-card-color);
+}
+.div p {
+  color: rgba(var(--default-color-rgb), 0.7);
+  margin: 0;
+  padding: 10px 0;
+}
+.pricing .card h1 {
+  color: var(--mainColor);
+  font-size: 48px;
+  font-family: var(--heading-font);
+}
+.pricing .card h1 sup {
+  font-size: 28px;
+}
+
+.pricing .card h1 span {
+  font-size: 18px;
+  color: rgba(var(--default-color-rgb), 0.7);
+  font-family: var(--heading-font);
+}
+.pricing .card button {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  border: 0;
+}
+.pricing .card button:hover {
+  background-color: var(--mainColor);
+}
+.hint {
+  padding: 5px 15px;
+  background-color: var(--mainColor);
+  height: 30px;
+}
+.hint p {
+  font-size: 14px;
+  font-family: var(--default-font);
+}
+.Frequently {
+  padding: 60px 0;
+}
+.Frequently-title {
+  padding: 0 12px 20px;
+}
+.Frequently-title span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.Frequently .row {
+  padding: 0 12px;
+}
+.Testimonials {
+  background-color: var(--bg);
+  padding: 60px 0;
+}
+.Testimonials-title span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.carousel-indicators {
+  margin-bottom: -30px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: var(--mainColor);
+}
+.contact {
+  padding: 60px 0;
+}
+.contact-title {
+  padding: 0 12px 60px;
+}
+.contact-title span {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: var(--mainColor);
+}
+.contact .info {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0 0 4px rgba(var(--default-color-rgb), 0.15);
+}
+.contact .info .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 2px 3px rgba(var(--default-color-rgb), 0.15);
+}
+.contact .info .icon i {
+  color: var(--accent-color);
+}
+.contact .info h3 {
+  font-family: var(--heading-font);
+  font-size: 18px;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+.contact .info p {
+  font-size: 14px;
+}
+.contact .form {
+  padding: 30px;
+  box-shadow: 0 0 4px rgba(var(--default-color-rgb), 0.15);
+}
+.contact .form button {
+  padding: 10px 30px;
+}
+.contact .form button:hover {
+  background-color: var(--secandColor);
+}
+footer {
+  background-color: var(--bg);
+  padding-bottom: 60px;
+}
+
+.container-first {
+  padding: 50px 12px 0;
+}
+.container-first .part1 a {
+  font-size: 28px;
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+  font-weight: 700;
+}
+.container-first .part1 p {
+  font-size: 14px;
+  font-family: var(--heading-font);
+  color: var(--default-color);
+}
+.container-first .part1 .icons a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(var(--default-color-rgb), 0.3);
+  margin-right: 10px;
+  color: rgba(var(--default-color-rgb), 0.6);
+}
+.container-first .icons a:hover {
+  color: var(--secandColor);
+  border-color: var(--secandColor);
+}
+.container-first h4{
+    padding-bottom: 12px;
+    color:var(--heading-color) ;
+    font-family: var(--heading-font);
+}
+.container-first .part2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container-first .part2 ul  a {
+  font-size: 14px;
+  line-height: 1;
+  font-family: var(--default-font);
+  color: rgba(var(--default-color-rgb), 0.7);
+}
+footer .part2 ul li a {
+  color: var(--default-color);
+}
+footer .part2 ul li a:hover {
+  color: var(--secandColor);
+}
+.part3 button:hover {
+  background-color: var(--secandColor);
+}
+.part3 input{
+    border-color: var(--secandColor);
+}
+.part3  p{
+    font-size: 14px;
+    font-family: var(--default-font);
+    color: var(--default-color);
+}
+
+.container-end {
+  padding: 25px 12px;
+  border-top: 0.8px solid rgba(var(--default-color-rgb), 0.1);
+}
+.container-end p{
+    font-size: 14px;
+    font-family: var(--default-font);
+    color: var(--default-color);
+}
+
+
+@media (min-width: 640px) {
+  .home .container h1 {
+    font-size: 48px;
+  }
+  .home .container p {
+    font-size: 20px;
+  }
+  .home .buttons button {
+    font-size: 15px;
+  }
+  .video-watch a {
+    font-size: 16px;
+  }
+  .home .container p {
+    font-size: 20px;
+  }
+  .home img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
